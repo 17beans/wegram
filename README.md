@@ -19,10 +19,11 @@ Instagram 앱과 비슷한 기능을 수행하는 앱이다.
 - 올바르지 않은 입력값 처리
 - 자동 로그인
 - 좋아요 클릭
-<br>
+<div>
 <img src="https://github.com/17beans/wegram/blob/main/%EC%99%84%EC%84%B1%20%EB%AA%A8%EC%8A%B5%20gif/%EC%98%AC%EB%B0%94%EB%A5%B4%EC%A7%80%20%EC%95%8A%EC%9D%80%20%EC%9E%85%EB%A0%A5%EA%B0%92%20%EC%B2%98%EB%A6%AC.gif?raw=true" height="500">
 <img src="https://github.com/17beans/wegram/blob/main/%EC%99%84%EC%84%B1%20%EB%AA%A8%EC%8A%B5%20gif/%EC%9E%90%EB%8F%99%20%EB%A1%9C%EA%B7%B8%EC%9D%B8.gif?raw=true" height="500">
 <img src="https://github.com/17beans/wegram/blob/main/%EC%99%84%EC%84%B1%20%EB%AA%A8%EC%8A%B5%20gif/%EC%A2%8B%EC%95%84%EC%9A%94%20%ED%81%B4%EB%A6%AD.gif?raw=true" height="500">
+</div>
 
 - 글, 이미지 업로드
 - 댓글 작성
