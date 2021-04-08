@@ -8,6 +8,7 @@ Instagram 앱과 비슷한 기능을 수행하는 앱이다.
 - React Native With Expo (expo-cli)
 - Firebase Authentication
 - Firebase Cloud Firestore
+- Firebase Storage
 
 # 기능 및 UI 구현
 - 기존 인스타그램 보다 가볍게 기능을 구현하였으며, 심플한 디자인을 추구했고 메인 페이지 상단에 간단한 광고를 보일 수 있도록 배너를 구성함
