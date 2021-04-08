@@ -57,3 +57,50 @@ Instagram 앱과 비슷한 기능을 수행하는 앱이다.
 			<img src="./글, 이미지 업로드.gif" height="500">
 		</div> -->
 	</div>
+<style type="text/css">
+		.card{
+			position: relative;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			min-width: 0;
+			word-wrap: break-word;
+			background-color: #fff;
+			background-clip: border-box;
+			border: 1px solid rgba(0, 0, 0, 0.125);
+			border-radius: 0.25rem;
+		}
+		.card-img{
+			width: 100%;
+			border-radius: calc(0.25rem - 1px);
+		}
+		img {
+			page-break-inside: avoid;
+		}
+		.card-columns {
+			margin-bottom: 0.75rem;
+			display: inline-block;
+    		width: 100%;
+    		-webkit-column-count: 3;
+		    -moz-column-count: 3;
+		    column-count: 3;
+		    -webkit-column-gap: 1.25rem;
+		    -moz-column-gap: 1.25rem;
+		    column-gap: 1.25rem;
+		}
+		.card-img-top{
+			width: 100%;
+		  	border-top-left-radius: calc(0.25rem - 1px);
+		  	border-top-right-radius: calc(0.25rem - 1px);
+		}
+		.card-body{
+			-webkit-box-flex: 1;
+		  	-ms-flex: 1 1 auto;
+		  	flex: 1 1 auto;
+		  	padding: 1.25rem;
+		}
+	</style>
