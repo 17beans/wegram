@@ -19,45 +19,8 @@ Instagram 앱과 비슷한 기능을 수행하는 앱이다.
 올바르지 않은 입력값 처리
 <img src="https://github.com/17beans/wegram/blob/main/%EC%99%84%EC%84%B1%20%EB%AA%A8%EC%8A%B5%20gif/%EC%98%AC%EB%B0%94%EB%A5%B4%EC%A7%80%20%EC%95%8A%EC%9D%80%20%EC%9E%85%EB%A0%A5%EA%B0%92%20%EC%B2%98%EB%A6%AC.gif?raw=true" height="500">
 
-<div class="card-columns" id="cards-box">
-		<div class="card">
-	        <img class="card-img-top"
-	             src="https://d1blyo8czty997.cloudfront.net/tour-photos/n/4708/1200x600/5791761964.jpg"
-	             alt="Card image cap" height="500">
-	        <div class="card-body">
-	            <a href="https://naver.com" class="card-title">여기 기사 제목이 들어가죠</a>
-	            <p class="card-text">기사의 요약 내용이 들어갑니다. 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 무궁화 삼천리 화려강산...</p>
-	            <p class="comment">여기에 코멘트가 들어갑니다.</p>
-	        </div>
-	    </div>
-		<div class="card">
-	        <img class="card-img-top"
-	             src="https://d1blyo8czty997.cloudfront.net/tour-photos/n/4708/1200x600/5791761964.jpg"
-	             alt="Card image cap" height="500">
-	        <div class="card-body">
-	            <a href="https://naver.com" class="card-title">여기 기사 제목이 들어가죠</a>
-	            <p class="card-text">기사의 요약 내용이 들어갑니다. 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 무궁화 삼천리 화려강산...</p>
-	            <p class="comment">여기에 코멘트가 들어갑니다.</p>
-	        </div>
-	    </div>
-		<div class="card">
-	        <img class="card-img-top"
-	             src="https://d1blyo8czty997.cloudfront.net/tour-photos/n/4708/1200x600/5791761964.jpg"
-	             alt="Card image cap" height="500">
-	        <div class="card-body">
-	            <a href="https://naver.com" class="card-title">여기 기사 제목이 들어가죠</a>
-	            <p class="card-text">기사의 요약 내용이 들어갑니다. 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 무궁화 삼천리 화려강산...</p>
-	            <p class="comment">여기에 코멘트가 들어갑니다.</p>
-	        </div>
-	    </div>
-		<!-- <div>
-			글 이미지 업로드
-			<img src="./글, 이미지 업로드.gif" height="500">
-			글 이미지 업로드
-			<img src="./글, 이미지 업로드.gif" height="500">
-		</div> -->
-	</div>
-<style type="text/css">
+<svg>
+	<style type="text/css">
 		.card{
 			position: relative;
 			display: -webkit-box;
@@ -84,23 +47,59 @@ Instagram 앱과 비슷한 기능을 수행하는 앱이다.
 		.card-columns {
 			margin-bottom: 0.75rem;
 			display: inline-block;
-    		width: 100%;
-    		-webkit-column-count: 3;
-		    -moz-column-count: 3;
-		    column-count: 3;
-		    -webkit-column-gap: 1.25rem;
-		    -moz-column-gap: 1.25rem;
-		    column-gap: 1.25rem;
+			width: 100%;
+			-webkit-column-count: 3;
+			-moz-column-count: 3;
+			column-count: 3;
+			-webkit-column-gap: 1.25rem;
+			-moz-column-gap: 1.25rem;
+			column-gap: 1.25rem;
 		}
 		.card-img-top{
 			width: 100%;
-		  	border-top-left-radius: calc(0.25rem - 1px);
-		  	border-top-right-radius: calc(0.25rem - 1px);
+			border-top-left-radius: calc(0.25rem - 1px);
+			border-top-right-radius: calc(0.25rem - 1px);
 		}
 		.card-body{
 			-webkit-box-flex: 1;
-		  	-ms-flex: 1 1 auto;
-		  	flex: 1 1 auto;
-		  	padding: 1.25rem;
+			-ms-flex: 1 1 auto;
+			flex: 1 1 auto;
+			padding: 1.25rem;
 		}
 	</style>
+	
+	<foreignObject>
+		<div class="card-columns" id="cards-box">
+			<div class="card">
+				<img class="card-img-top"
+				     src="https://d1blyo8czty997.cloudfront.net/tour-photos/n/4708/1200x600/5791761964.jpg"
+				     alt="Card image cap" height="200">
+				<div class="card-body">
+				    <a href="https://naver.com" class="card-title">여기 기사 제목이 들어가죠</a>
+				    <p class="card-text">기사의 요약 내용이 들어갑니다. 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 무궁화 삼천리 화려강산...</p>
+				    <p class="comment">여기에 코멘트가 들어갑니다.</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top"
+				     src="https://d1blyo8czty997.cloudfront.net/tour-photos/n/4708/1200x600/5791761964.jpg"
+				     alt="Card image cap" height="200">
+				<div class="card-body">
+				    <a href="https://naver.com" class="card-title">여기 기사 제목이 들어가죠</a>
+				    <p class="card-text">기사의 요약 내용이 들어갑니다. 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 무궁화 삼천리 화려강산...</p>
+				    <p class="comment">여기에 코멘트가 들어갑니다.</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top"
+				     src="https://d1blyo8czty997.cloudfront.net/tour-photos/n/4708/1200x600/5791761964.jpg"
+				     alt="Card image cap" height="200">
+				<div class="card-body">
+				    <a href="https://naver.com" class="card-title">여기 기사 제목이 들어가죠</a>
+				    <p class="card-text">기사의 요약 내용이 들어갑니다. 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 무궁화 삼천리 화려강산...</p>
+				    <p class="comment">여기에 코멘트가 들어갑니다.</p>
+				</div>
+			</div>
+		</div>
+	</foreignObject>
+</svg>
