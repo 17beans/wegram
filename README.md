@@ -23,7 +23,7 @@ Instagram 앱과 비슷한 기능을 수행하는 앱이다.
 		<div class="card">
 	        <img class="card-img-top"
 	             src="https://d1blyo8czty997.cloudfront.net/tour-photos/n/4708/1200x600/5791761964.jpg"
-	             alt="Card image cap">
+	             alt="Card image cap" height="500">
 	        <div class="card-body">
 	            <a href="https://naver.com" class="card-title">여기 기사 제목이 들어가죠</a>
 	            <p class="card-text">기사의 요약 내용이 들어갑니다. 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 무궁화 삼천리 화려강산...</p>
@@ -33,7 +33,7 @@ Instagram 앱과 비슷한 기능을 수행하는 앱이다.
 		<div class="card">
 	        <img class="card-img-top"
 	             src="https://d1blyo8czty997.cloudfront.net/tour-photos/n/4708/1200x600/5791761964.jpg"
-	             alt="Card image cap">
+	             alt="Card image cap" height="500">
 	        <div class="card-body">
 	            <a href="https://naver.com" class="card-title">여기 기사 제목이 들어가죠</a>
 	            <p class="card-text">기사의 요약 내용이 들어갑니다. 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 무궁화 삼천리 화려강산...</p>
@@ -43,7 +43,7 @@ Instagram 앱과 비슷한 기능을 수행하는 앱이다.
 		<div class="card">
 	        <img class="card-img-top"
 	             src="https://d1blyo8czty997.cloudfront.net/tour-photos/n/4708/1200x600/5791761964.jpg"
-	             alt="Card image cap">
+	             alt="Card image cap" height="500">
 	        <div class="card-body">
 	            <a href="https://naver.com" class="card-title">여기 기사 제목이 들어가죠</a>
 	            <p class="card-text">기사의 요약 내용이 들어갑니다. 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 무궁화 삼천리 화려강산...</p>
